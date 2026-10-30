@@ -33,3 +33,7 @@ footer{text-align:center;color:var(--m);font-size:.9rem;padding:28px 18px;border
 .rblock{border-left:4px solid #8b0000}
 .cat.rule{border-color:#5a1010;background:linear-gradient(145deg,#2a0d14,#120c1e)}.cat.rule .ic{background:rgba(139,0,0,.25)}
 .cat.rule:hover{border-color:#b31010;box-shadow:0 10px 40px rgba(139,0,0,.4)}
+.owner{display:flex;align-items:center;justify-content:center;gap:28px;background:linear-gradient(145deg,#2a0a0a,#120c1e);border:1px solid #8b0000;border-radius:var(--r);padding:22px 28px;margin-bottom:18px;box-shadow:0 0 30px rgba(139,0,0,.25)}
+.owner img{height:170px;width:auto;image-rendering:pixelated;filter:drop-shadow(0 6px 18px rgba(0,0,0,.6))}
+.ownertxt{color:#c21818;font-weight:800;letter-spacing:.1em;font-size:clamp(1.15rem,4vw,2rem);text-shadow:0 0 18px rgba(200,20,20,.55);line-height:1.25}
+@media(max-width:600px){.owner{gap:16px;padding:18px}.owner img{height:130px}}
