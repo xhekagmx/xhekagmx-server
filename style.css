@@ -142,3 +142,9 @@ main{padding-top:48px}
 .skinwrap img,.snowbox img{margin-bottom:5px}
 .skinwrap{padding-left:46px;padding-right:20px}
 .snowbox{padding:8px 18px 0 54px}
+
+/* v10: procedural caps/icicles from winter.js */
+.wx-cap,.wx-ice{background:none!important;-webkit-mask:none!important;mask:none!important;filter:none!important;opacity:1!important;border-radius:0!important;overflow:visible}
+.wx-cap{left:0!important;right:0!important;top:-14px!important;height:auto!important;filter:drop-shadow(0 1px 1px rgba(150,180,230,.25))!important}
+.wx-ice{left:0!important;right:0!important;bottom:-30px!important;top:auto!important;height:30px!important;z-index:1}
+.wx-cap svg,.wx-ice svg{display:block;overflow:visible}
