@@ -75,6 +75,11 @@ footer{text-align:center;color:var(--m);font-size:.9rem;padding:28px 18px;border
 .iprow{display:flex;gap:10px;justify-content:center;align-items:center;flex-wrap:wrap}
 .iprow code{font-size:1.2rem;background:#07050c;padding:10px 16px;border-radius:12px}
 .iprow .btn{border:0;cursor:pointer;font-size:1rem}
+.ip-lock{filter:blur(8px);-webkit-filter:blur(8px);user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;pointer-events:none}
+.ip-lock::selection{background:transparent;color:transparent}
+b.ip-text.ip-lock{display:inline-block}
+.iphint{color:var(--m);font-size:.85rem;font-weight:700;margin:8px 0 2px}
+.iprow .btn:disabled,.iprow .btn:disabled:hover{cursor:not-allowed;opacity:.6;filter:none;box-shadow:none;white-space:normal;text-align:center;line-height:1.3}
 .status{text-align:center;margin:-6px 0 22px;color:var(--m)}
 .dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:#ef4444;margin-right:6px}.dot.on{background:#22c55e;box-shadow:0 0 10px #22c55e}
 .dc-slot{margin:0 auto 18px;max-width:420px}
