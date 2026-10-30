@@ -9,7 +9,7 @@ document.querySelectorAll('.dc-slot').forEach(function(s){
 document.querySelectorAll('.ip-text').forEach(function(e){e.textContent=ip||'IP folgt zur Eröffnung am 1. November'});
 var ipb=$('ipbox');
 if(ipb){
-  if(ip){ipb.innerHTML='<div class="iplbl">Server-IP</div><div class="iprow"><code>'+ip.replace(/</g,'')+'</code><button id="cp" class="btn">Kopieren</button></div>';
+  if(ip){ipb.innerHTML='<div class="iplbl">Server-IP</div><div class="iprow"><code>'+ip.replace(/</g,'')+'</code><button id="cp" class="btn">Kopieren</button></div><div class="iplbl">☕ Java: nur die Adresse oben (kein Port nötig)<br>🪨 Bedrock: Adresse oben + <b>Port 19132</b> (Port unbedingt angeben!)</div>';
     $('cp').onclick=function(){var b=this;var done=function(){b.textContent='Kopiert!';setTimeout(function(){b.textContent='Kopieren'},1800)};
       if(navigator.clipboard)navigator.clipboard.writeText(ip).then(done,done);else done();};}
   else ipb.innerHTML='<div class="iplbl">Server-IP</div><div class="ipsoon">IP folgt zur Eröffnung am 1. November</div>';
