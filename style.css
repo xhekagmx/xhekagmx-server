@@ -61,6 +61,6 @@ footer{text-align:center;color:var(--m);font-size:.9rem;padding:28px 18px;border
 .ranks{align-items:stretch}
 .rank .btn{white-space:normal;padding:12px 10px}
 @media(min-width:700px) and (max-width:1100px){.ranks{grid-template-columns:repeat(2,1fr)}}
-.r-mem{--a:#4ade80}.c-mem{color:#86efac}
+.rank.r-mem{--a:#4ade80!important}.cmp .c-mem,.c-mem{color:#86efac!important}
 @media(min-width:1101px){main:has(.ranks){max-width:1200px}.ranks{grid-template-columns:repeat(5,1fr);gap:14px}.ranks .rank{padding:18px}}
 .cmp th,.cmp td{white-space:nowrap}
