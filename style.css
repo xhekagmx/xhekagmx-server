@@ -156,3 +156,36 @@ main{padding-top:48px}
 
 .ed-h{margin:26px 0 14px;font-size:1.25rem}
 main{padding-bottom:40px}footer{border-top-color:#3a2560}
+
+/* Sale on ranks */
+.sale-banner{margin:0 0 22px;padding:18px 20px;text-align:center;border-radius:var(--r);background:linear-gradient(135deg,#2a1450,#7c3aed 46%,#a855f7);border:1px solid #c4b5fd;box-shadow:0 0 32px rgba(124,58,237,.35)}
+.sale-banner strong{display:block;font-size:1.35rem;letter-spacing:.14em;text-transform:uppercase}
+.sale-banner p{color:#f3e8ff;margin-top:6px;line-height:1.45}
+.rank .price{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 8px;line-height:1.05}
+.rank .price .was{font-size:.95rem;font-weight:700;color:var(--m);text-decoration:line-through;text-decoration-thickness:2px}
+.rank .price .now{font-size:2rem;font-weight:800;color:var(--a)}
+.rank .price .off,.cmp .off{display:inline-block;background:#07050c;color:#e9d5ff;border:1px solid #a855f7;border-radius:999px;padding:2px 8px;font-size:.72rem;font-weight:800;letter-spacing:.03em;line-height:1.4;text-decoration:none}
+.rank .price small{font-size:1rem;color:var(--m);font-weight:600}
+
+/* Pinnwand */
+.pin-form{display:flex;gap:12px;align-items:flex-end;background:linear-gradient(145deg,var(--card2),var(--card));border:1px solid #3b2566;border-radius:var(--r);padding:16px}
+.pin-field{flex:1;min-width:0}
+.pin-field label{display:block;font-weight:800;margin-bottom:8px}
+.pin-field textarea{width:100%;min-height:74px;max-height:110px;resize:vertical;background:#07050c;color:var(--t);border:1px solid #3b2566;border-radius:14px;padding:12px 14px;font:inherit;line-height:1.4}
+.pin-field textarea:focus{outline:none;border-color:#a855f7;box-shadow:0 0 0 3px rgba(124,58,237,.35)}
+.pin-meta{display:flex;justify-content:space-between;gap:10px;margin-top:8px;color:var(--m);font-size:.85rem}
+.pin-meta .over{color:#f0abfc;font-weight:700}
+.pin-form .btn{border:0;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.pin-form .btn svg{width:18px;height:18px}
+.pin-grid{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:22px}
+.pin-card{width:260px;max-width:100%;height:168px;box-sizing:border-box;display:flex;flex-direction:column;background:linear-gradient(145deg,var(--card2),var(--card));border:1px solid #3b2566;border-radius:var(--r);padding:14px 14px 10px;overflow:hidden}
+.pin-card p{margin:0;flex:1;color:var(--t);line-height:1.35;font-size:.95rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
+.pin-votes{display:flex;gap:8px;margin-top:8px}
+.pin-vote{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:6px;background:#07050c;color:#c4b5fd;border:1px solid #3b2566;border-radius:999px;padding:6px 8px;font:inherit;font-weight:800;cursor:pointer}
+.pin-vote svg{width:16px;height:16px;fill:#a855f7}
+.pin-vote:hover{border-color:#a855f7}
+.pin-vote.on{border-color:#a855f7;box-shadow:0 0 12px rgba(168,85,247,.35)}
+.pin-vote:disabled{cursor:default;opacity:.85}
+.pin-empty{width:100%;text-align:center;color:var(--m);padding:8px 0 4px}
+.pin-err{color:#f0abfc;font-weight:700;margin-top:12px}
+@media(max-width:560px){.pin-form{flex-direction:column;align-items:stretch}.pin-form .btn{width:100%;justify-content:center}.pin-card{width:100%;max-width:320px}}
