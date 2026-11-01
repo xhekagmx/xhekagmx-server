@@ -36,8 +36,8 @@
 
    4. Die beiden Werte unten eintragen und die Datei erneut veröffentlichen.
 */
-var PIN_SUPABASE_URL = '';
-var PIN_SUPABASE_ANON_KEY = '';
+var PIN_SUPABASE_URL = 'https://haqjnzeuodqozwobyzqk.supabase.co';
+var PIN_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhhcWpuemV1b2Rxb3p3b2J5enFrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTM0NjgzNDMsImV4cCI6MjEwOTA0NDM0M30.orYkX9ybkhk-a_ykvE6lCnJb4W-jZiSHFExUQj2W5nM';
 var PIN_MAX = 140;
 var PIN_VOTE_KEY = 'xhekagmx-pin-votes';
 var PIN_COOL_KEY = 'xhekagmx-pin-last';
