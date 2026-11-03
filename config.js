@@ -4,5 +4,6 @@ var SERVER_IP = 'xhekagmx2.exaroton.me';                             // z.B. 'pl
 var OPENING = '2026-11-01T00:00:00+01:00';      // Eröffnung (Zürcher Zeit)
 var SUPPORTERS = [                              // weitere Spender hier anfügen – nur mit Erlaubnis
   'Metehan – 50 Fr. – MVP+',                    // z.B. 'Name – 50 Fr. – MVP+'
-  'Metehan – 5 Fr.'
+  'Metehan – 5 Fr.',
+  'nufi37xx – 5 Fr. – VIP+'
 ];
